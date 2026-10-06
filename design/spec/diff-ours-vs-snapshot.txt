@@ -1,0 +1,148 @@
+A  SUMMARY
+   reference rows 474, ours 538, matched 429
+   page height: reference 6183, ours 6185
+   unmatched: reference 45, ours 109
+   rows with |dy| > 0.5: 154 (max 4143.2)
+
+B  DRIFT STEPS (our y minus reference y; a step = space we add or lose between neighbours)
+   ref y  1525.3  delta     +1  (step     +1)  i:img#8
+   ref y  1723.3  delta      0  (step     -1)  t:Bedroom#1
+   ref y  3032.8  delta -2177.3  (step -2177.3)  t:Check-in#1
+   ref y  3032.8  delta      0  (step +2177.3)  t:Communication#1
+   ref y  3519.1  delta   +1.1  (step   +1.1)  i:img#24
+   ref y  3754.7  delta   +2.1  (step     +1)  i:img#25
+
+B2 FULL COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   ref y  3032.8  offset -2177.3  step -2177.3  t:Check-in#1  (after t:Accuracy#1)
+   ref y  3032.8  offset      0  step +2177.3  t:Communication#1  (after t:Check-in#1)
+   ref y  3519.1  offset   +1.1  step    +1  i:img#24  (after t:Show more#2)
+   ref y  3754.7  offset   +2.1  step    +1  i:img#25  (after t:Show more#3)
+
+B2 LEFT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   ref y  1525.3  offset     +1  step    +1  i:img#8  (after t:Where you'll sleep#1)
+   ref y  1723.3  offset      0  step    -1  t:Bedroom#1  (after i:img#9)
+
+B2 RIGHT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+C  SIZE / X / LINE-COUNT DIFFERENCES (tolerance 0.5px; y ignored)
+   y      89  c:main:Romantic Jacuzzi 1BHK Candolim#1           h 6094 -> 6096.1
+   y   985.1  t:Free cancellation before#1                      w 148.1 -> 145.3
+   y  1233.1  t:Some info has been automatically translated.#1  w 292.3 -> 289.2
+   y  1233.1  b:Show original#1                                 h 18 -> 20
+   y  1525.3  i:img#8                                           x 80 -> 81, w 274.5 -> 272.5, h 183 -> 181
+   y  1525.3  i:img#9                                           x 370.5 -> 371.5, w 274.5 -> 272.5, h 183 -> 181
+   y    2350  s:Previous month#1                                x 90 -> 92.5, w 12 -> 7
+   y    2350  s:Next month#1                                    x 623 -> 625.5, w 12 -> 7
+   y  3032.8  t:Check-in#1                                      x 571.8 -> 780, w 58.7 -> 51.4, h 18 -> 13
+   y  4180.2  s:Search#1                                        x 104 -> 766.3, w 16 -> 14, h 16 -> 14
+   y  6116.4  s:#73                                             x 1189.2 -> 1188.6
+   11 rows differ
+
+D  IN THE REFERENCE, NOT MATCHED IN OURS
+   y       0  c:header:AnywhereAnytimeAdd guestsBecom#1  [0, 1193x89]
+   y      22  c:nav:Become a host#1  [891.7, 221.3x44]
+   y      89  c:section:Romantic Jacuzzi 1BHK Candolim#1  [80, 1033x84]
+   y     173  c:section:Photos of this place#1  [80, 1033x455.6]
+   y     173  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 1#1  [80, 515.9x455.6]
+   y     173  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 2#1  [603.9, 250.6x223.8]
+   y     173  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 3#1  [862.4, 250.6x223.8]
+   y   404.8  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 4#1  [603.9, 250.6x223.8]
+   y   404.8  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 5#1  [862.4, 250.6x223.8]
+   y   676.6  c:aside:Get 10% off your next stay.Ter#1  [741, 372x1985.2]
+   y   789.5  t:Guestfavourite#1  [135.5, 64x36.3]
+   y     802  t:for 5 nights#2  [855.3, 78x19]
+   y   855.5  t:CHECK-IN#1  [780, 51.4x13]
+   y   855.5  t:CHECKOUT#1  [940, 59.3x13]
+   y   913.8  t:GUESTS#1  [779, 41x13]
+   y   931.1  t:2 guests#1  [779, 54.4x18]
+   y  2265.5  t:5 nights in Candolim#1  [80, 208x29]
+   y  2662.8  c:section:4.95Guest favouriteThis home i#1  [80, 1033x1347.5]
+   y  3205.6  b:Comfort 6#1  [80, 135.2x48]
+   y  3205.6  b:Accuracy 5#1  [227.2, 139.9x48]
+   y  3205.6  b:Hot tub 5#1  [379.1, 128.3x48]
+   y  3205.6  b:Condition 4#1  [519.4, 143.5x48]
+   y  3205.6  b:Hospitality 8#1  [674.9, 149.9x48]
+   y  3205.6  b:Cleanliness 4#1  [836.8, 152.3x48]
+   y  3205.6  b:Amenities 2#1  [1001.1, 144.9x48]
+   y  3205.6  b:Decor 2#1  [1158, 118.5x48]
+   y  3205.6  b:Indoor spaces 2#1  [1288.5, 170.4x48]
+   y  3205.6  b:Location 2#1  [1470.9, 135.3x48]
+   y  4368.2  s:#60  [568.5, 56x56]
+   y  4861.4  c:section:Meet your hostMirashya HomesHo#1  [80, 1033x561.5]
+   y  5050.6  s:#61  [218, 24x24]
+   y  5069.2  t:4.68★#1  [316, 57.1x26]
+   y  5209.9  t:Response rate: 100%Responds within an hour#1  [468, 168.8x43]
+   y  5688.8  b:Learn more#2  [435, 74.5x18]
+   y  5688.8  b:Learn more#3  [790, 74.5x18]
+   y  5701.8  b:Learn more#1  [80, 74.5x18]
+   y  5768.8  c:section:More stays nearby1 / 2Beautifu#1  [80, 1033x414.2]
+   y  6112.4  t:₹23,600 4.91#1  [80, 93.7x17]
+   y  6112.4  t:₹42,218 4.95#1  [290.6, 92.3x17]
+   y  6112.4  t:₹44,506 4.94#1  [501.2, 95x17]
+   y  6112.4  t:₹22,824 4.96#1  [711.8, 95x17]
+   y  6112.4  t:₹39,942 4.95#1  [922.4, 94.5x17]
+   y  6112.4  t:₹45,648 5.0#1  [1133, 86.9x17]
+   y  6112.4  t:₹48,786 4.93#1  [1343.6, 93.8x17]
+   y  6112.4  t:₹22,824 4.92#1  [1554.2, 94.7x17]
+
+E  IN OURS, NOT IN THE REFERENCE (text only)
+   y   787.5  t:out of 5 stars#1
+   y   789.5  t:Guest#1
+   y     802  t:for 5 nights#1
+   y   806.8  t:favourite#1
+   y   855.5  t:Checkout#1
+   y   913.8  t:Guests#1
+   y   931.1  t:2guests#1
+   y  1216.1  t:About this place#1
+   y  2098.1  t:Unavailable:#1
+   y  2098.1  t:Unavailable:#2
+   y  2265.5  t:5nights in Candolim#1
+   y  2790.8  t:Rated 4.95 out of 5 from 19 reviews#1
+   y  3032.8  t:Check-in#2
+   y  3062.8  t:18 reviews with#1
+   y  3062.8  t:stars#1
+   y    3083  t:1 reviews with#1
+   y    3083  t:stars#2
+   y  3103.1  t:0 reviews with#1
+   y  3103.1  t:stars#3
+   y  3123.3  t:0 reviews with#2
+   y  3123.3  t:stars#4
+   y  3143.4  t:0 reviews with#3
+   y  3143.4  t:stars#5
+   y  3344.4  t:Rated 5 out of 5#1
+   y  3344.4  t:Rated 5 out of 5#2
+   y    3581  t:Rated 5 out of 5#3
+   y    3581  t:Rated 5 out of 5#4
+   y  3817.6  t:Rated 5 out of 5#5
+   y  3817.6  t:Rated 5 out of 5#6
+   y  5065.2  t:Verified host#1
+   y  5071.3  t:4.68#1
+   y    5212  t:Response rate: 100%#1
+   y    5236  t:Responds within an hour#1
+   y  5825.8  t:Page 1 of 2#1
+   y  6113.5  t:Rated#1
+   y  6113.5  t:Rated#2
+   y  6113.5  t:Rated#3
+   y  6113.5  t:Rated#4
+   y  6113.5  t:Rated#5
+   y  6113.5  t:Rated#6
+   y  6113.5  t:Rated#7
+   y  6113.5  t:Rated#8
+   y  6114.5  t:₹23,600#1
+   y  6114.5  t:4.91#1
+   y  6114.5  t:₹42,218#1
+   y  6114.5  t:4.95#3
+   y  6114.5  t:₹44,506#1
+   y  6114.5  t:4.94#1
+   y  6114.5  t:₹22,824#1
+   y  6114.5  t:4.96#1
+   y  6114.5  t:₹39,942#1
+   y  6114.5  t:4.95#4
+   y  6114.5  t:₹45,648#1
+   y  6114.5  t:5.0#5
+   y  6114.5  t:₹48,786#1
+   y  6114.5  t:4.93#1
+   y  6114.5  t:₹22,824#2
+   y  6114.5  t:4.92#1
+   58 text rows

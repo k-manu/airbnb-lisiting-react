@@ -1,0 +1,55 @@
+/* Design tokens for "Things to know" and "More stays nearby".
+   Provenance: "measured" = read off design/reference/full-page.jpg (2.887x),
+   "reference value" = a computed value looked up in the saved reference page. */
+
+:root {
+  /* ---- Shared section frame (reference value; matches measured dividers) ---- */
+  --know-section-padding-y: 48px;
+  --know-heading-line-height: 26px;
+  --know-heading-margin-bottom: 24px;
+  --know-things-nudge-y: 0px; /* the old 1px compensated for the screenshot bias; the reference frame is uniform */
+
+  /* ---- Things to know ---- */
+  --know-column-gap: 32px; /* reference value */
+  --know-icon-size: 24px; /* reference value */
+  --know-icon-margin-bottom: 18px; /* reference value */
+  --know-title-line-height: 1.43; /* reference: page ratio (22.88px at 16px) */
+  --know-title-margin-bottom: 14px; /* reference value */
+  --know-text-line-height: 21px; /* reference value: 14px x 1.5 */
+  --know-text-margin-bottom: 8px; /* reference value */
+  --know-link-line-height: 1.43; /* page default 1.43 x 14px = 20.02px */
+
+  /* ---- More stays nearby ---- */
+  --nearby-header-margin-bottom: 20px; /* reference value */
+  --nearby-pager-button-size: 32px; /* reference value */
+  --nearby-pager-icon-size: 12px; /* reference value */
+  --nearby-pager-gap: 8px; /* reference value */
+  --nearby-pager-label-gap: 6px; /* measured: extra space after "1 / 2" */
+  --nearby-pager-disabled-opacity: 0.3; /* reference value */
+  --nearby-track-gap: 20px; /* reference value */
+  --nearby-track-bleed: 4px; /* room for the focus ring; offsets the padding */
+  --nearby-title-margin-top: 8px; /* reference value */
+  --nearby-title-line-height: 1.43; /* reference: page ratio (20.02px) */
+  --nearby-meta-margin-top: 4px; /* reference value */
+  --nearby-meta-line-height: 18.6px; /* reference value (normal leading at 13px) */
+  --nearby-meta-gap: 8px; /* measured: price -> star */
+  --nearby-star-gap: 3px; /* measured: star -> rating */
+  --nearby-star-size: 10px; /* reference value */
+  --nearby-image-radius: 12px; /* reference value */
+}
+
+@theme static {
+  --color-pager-border: #b0b0b0; /* reference value */
+  --text-nearby-meta: 13px;
+}
+
+/* One card is (track width - gaps) / cards-per-page wide; the count is set by
+   the carousel so the CSS and the paging maths share one number. */
+@utility nearby-card-size {
+  flex: 0 0
+    calc(
+      (100% - (var(--nearby-per-page) - 1) * var(--nearby-track-gap)) /
+        var(--nearby-per-page)
+    );
+  min-width: 0;
+}

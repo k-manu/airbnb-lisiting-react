@@ -1,0 +1,41 @@
+/* Design tokens for the sticky sub-nav bar (features/sticky-nav).
+   Provenance: "reference" = value looked up in the reference stylesheet,
+   "measured" = taken from design/reference/scroll-states screenshots. */
+
+:root {
+  /* ---- Bar ---- */
+  --sticky-nav-height: 66px; /* reference: inner row height (content box) */
+  --sticky-nav-border-width: 1px; /* reference: bottom border, colour = --color-line */
+  /* What the page needs to know: sticky booking column sits below this, and
+     anchor targets get this as scroll-margin-top so they land under the bar. */
+  --sticky-nav-total-height: calc(
+    var(--sticky-nav-height) + var(--sticky-nav-border-width)
+  ); /* = 67px; the reference screenshots show 67.06 at their 1.70x vertical scale */
+  --sticky-nav-max-width: 1280px; /* reference */
+  --sticky-nav-scroll-offset: 80px; /* reference: a tab click scrolls until the section top is this far below the viewport top */
+  --sticky-nav-z: 45; /* reference: above page content, below dialogs */
+  --dur-sticky-nav: 0.25s; /* reference: slide + fade, `ease` */
+
+  /* ---- Tabs ---- */
+  --sticky-nav-tab-gap: 4px; /* reference */
+  --sticky-nav-tab-pad-x: 8px; /* reference */
+  --sticky-nav-tab-pad-y: 22px; /* reference */
+  --sticky-nav-tab-line-height: 1.43; /* reference: the page ratio (20.02px at 14px) */
+  --sticky-nav-underline-height: 2px; /* reference */
+  --sticky-nav-underline-offset: 12px; /* reference: distance from the tab's bottom edge */
+
+  /* ---- Price block + Reserve ---- */
+  --sticky-nav-actions-gap: 20px; /* reference */
+  --sticky-nav-meta-gap: 2px; /* reference: space above the rating line */
+  --sticky-nav-star-size: 11px; /* reference */
+  --sticky-nav-star-shift: -1px; /* reference: baseline nudge of the star */
+  --sticky-nav-reserve-height: 40px; /* reference */
+  --sticky-nav-reserve-pad-x: 20px; /* reference */
+  --sticky-nav-reserve-press-scale: 0.985; /* reference: :active */
+}
+
+@theme static {
+  --text-nav-price: 15px; /* reference */
+  --text-nav-meta: 13px; /* reference */
+  --text-nav-meta--line-height: 1.2; /* reference */
+}

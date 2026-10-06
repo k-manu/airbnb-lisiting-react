@@ -1,0 +1,27 @@
+painted boxes: reference 113, ours 107; matched 100; differing 0
+
+DIFFERENT PAINT (reference -> ours)
+
+IN THE REFERENCE, NO MATCH IN OURS (13)
+y   -29.8 x   890.6 11x11 <span> bg rgb(34, 34, 34) border - radius 0 shadow -
+y       0 x       0 1193x900 <div> bg rgba(0, 0, 0, 0.5) border - radius 0 shadow -
+y     860 x   574.5 44x28 <div> bg rgb(34, 34, 34) border - radius 8px shadow -
+y   902.8 x     767 320x57.3 <div> bg - border T1 rgb(176, 176, 176) radius 0 shadow -
+y  2661.8 x      80 1033x3521.2 <div> bg - border T1 rgb(235, 235, 235) radius 0 shadow -
+y  5869.8 x      80 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x   290.6 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x   501.2 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x   711.8 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x   922.4 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x    1133 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x  1343.6 190.6x190.6 <img> bg - border - radius 12px shadow -
+y  5869.8 x  1554.2 190.6x190.6 <img> bg - border - radius 12px shadow -
+
+IN OURS, NO MATCH IN THE REFERENCE (7)
+y     -16 x      88 45.9x2 <span> bg rgb(34, 34, 34) border - radius 0 shadow -
+y  2517.1 x    98.2 18.2x36.3 <span> bg rgb(242, 242, 242) border - radius 0 shadow -
+y  2517.1 x   261.8 18.2x36.4 <span> bg rgb(242, 242, 242) border - radius 0 shadow -
+y   844.5 x     767 320x59.3 <div> bg - border B1 rgb(176, 176, 176) radius 0 shadow -
+y  2661.8 x      80 1033x1350.5 <section> bg - border T1 rgb(235, 235, 235) radius 0 shadow -
+y  3031.8 x      80 192.2x129.8 <div> bg - border L1 rgba(0, 0, 0, 0) radius 0 shadow -
+y  4158.2 x      80 1033x480 <div> bg - border - radius 0 shadow -

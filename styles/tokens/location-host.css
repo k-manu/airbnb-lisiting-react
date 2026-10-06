@@ -1,0 +1,145 @@
+/* Design tokens for the "Where you'll be" and "Meet your host" sections.
+   Owned by those sections only. "reference computed value" = a value measured
+   from the reference's computed styles via Chrome DevTools. Older comments that say
+   "measured" refer to design/reference/full-page.jpg, which renders vertical distances
+   ~0.6% larger than the real page (the map is 483px in that image and 480px on the live page),
+   so the live computed style value always wins. */
+
+:root {
+  /* ---- Shared section rhythm ---- */
+  --place-leading: 1.43; /* reference stylesheet value: the page's default line-height */
+  --place-pad-top: 48px; /* reference stylesheet value (the old 49 came from the 0.6%-oversized screenshot) */
+  --place-pad-bottom: 48px; /* reference stylesheet value */
+  --place-title-gap: 24px; /* reference stylesheet value: h2 to first block */
+
+  /* ---- Location: text blocks ---- */
+  --place-label-gap: 24px; /* place name to map */
+  --place-note-gap: 18px; /* map to the "after booking" note */
+  --place-highlights-gap-top: 40px; /* note to "Neighbourhood highlights" */
+  --place-highlights-gap-bottom: 12px; /* heading to blurb */
+  --place-blurb-leading: 1.5; /* reference stylesheet value */
+  --place-more-gap: 18px; /* blurb to "Show more" */
+  --place-more-icon-size: 14px; /* reference stylesheet value */
+  --place-more-icon-gap: 6px; /* reference stylesheet value */
+  --place-more-underline-offset: 3px; /* reference stylesheet value */
+
+  /* ---- Location: map ---- */
+  --map-height: 480px; /* reference stylesheet value; confirmed on the live page (map box 480px tall) */
+  --map-radius: 12px; /* reference stylesheet value */
+  --map-control-inset: 12px; /* reference stylesheet value */
+  --map-control-size: 40px; /* reference stylesheet value */
+  --map-control-gap: 8px; /* reference stylesheet value */
+  --map-control-radius: 8px; /* reference stylesheet value */
+  --map-control-icon-size: 16px; /* reference stylesheet value */
+  --map-pin-size: 56px; /* reference stylesheet value */
+  --map-pin-glyph-width: 38px; /* measured: ground line is 38px wide, walls 28px */
+  --map-pin-glyph-height: 39px; /* measured */
+  --map-pin-glyph-shift: 5px; /* measured: the glyph sits below the circle's centre */
+  --map-artwork:
+    radial-gradient(circle at 30% 40%, var(--color-map-park) 0, var(--color-map-park) 6%, transparent 6%),
+    radial-gradient(circle at 70% 60%, var(--color-map-park) 0, var(--color-map-park) 8%, transparent 8%),
+    linear-gradient(115deg, var(--color-map-water) 0, var(--color-map-water) 34%, var(--color-map-land) 34%, var(--color-map-land) 100%);
+  --map-grid:
+    linear-gradient(90deg, rgba(180, 180, 170, 0.5) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(180, 180, 170, 0.35) 1px, transparent 1px);
+
+  /* ---- Host: layout ---- */
+  --host-pad-top: 48px; /* reference stylesheet value; matches the capture */
+  --host-pad-bottom: 48px; /* reference stylesheet value */
+  --host-columns: 340px 1fr; /* reference stylesheet value; live details start at x=468 = 80 + 340 + 48 */
+  --host-column-gap: 48px; /* reference stylesheet value */
+  --host-card-pad: 30px 24px; /* reference stylesheet value */
+  --host-card-columns: 1fr 100px; /* reference stylesheet value: identity, stats */
+  --host-avatar-size: 88px; /* reference stylesheet value */
+  --host-avatar-gap: 12px;
+  --host-badge-size: 28px; /* reference stylesheet value */
+  --host-badge-inset-bottom: 4px; /* reference stylesheet value */
+  --host-badge-ring: 2px; /* reference stylesheet value */
+  --host-badge-check-size: 15px; /* reference stylesheet value */
+  --host-role-gap: 4px; /* reference stylesheet value */
+  --host-stats-pad-x: 20px; /* reference stylesheet value */
+  --host-rating-star-size: 0.9em; /* measured: the star is just under the digit height */
+  --host-stat-pad-y: 10px; /* reference stylesheet value */
+  --host-facts-gap-top: 22px; /* reference stylesheet value */
+  --host-facts-gap: 14px; /* reference stylesheet value */
+  --host-fact-icon-size: 24px; /* reference stylesheet value */
+  --host-fact-icon-gap: 14px; /* reference stylesheet value */
+  --host-heading-gap: 16px; /* reference stylesheet value: sub-heading to its content */
+  --host-cohost-grid-gap: 16px 8px; /* reference stylesheet value (row column) */
+  --host-cohost-avatar-size: 34px; /* reference stylesheet value */
+  --host-cohost-gap: 10px; /* reference stylesheet value */
+  --host-cohost-grid-bottom: 30px; /* reference stylesheet value */
+  --host-detail-leading: 1.6; /* reference stylesheet value */
+  --host-message-gap-top: 18px; /* reference stylesheet value */
+  --host-message-pad: 14px 24px; /* reference stylesheet value */
+  --host-notice-gap-top: 30px; /* reference stylesheet value */
+  --host-notice-gap: 10px; /* reference stylesheet value */
+  --host-notice-icon-size: 24px; /* reference stylesheet value */
+
+  /* ---- Host: motion (reference stylesheet values) ---- */
+  --dur-host-btn-background: 0.15s;
+  --dur-host-btn-transform: 0.05s;
+  --host-btn-press-scale: 0.98;
+}
+
+@theme static {
+  /* Map artwork colours (reference stylesheet values). */
+  --color-map-base: #e8eef0; /* behind the artwork (reference stylesheet value) */
+  --color-map-land: #e9f0e4;
+  --color-map-water: #acd3e6;
+  --color-map-park: #cfe3c8;
+  --shadow-map-control: 0 2px 6px rgba(0, 0, 0, 0.2); /* reference stylesheet value */
+  --shadow-map-pin: 0 4px 12px rgba(0, 0, 0, 0.3); /* reference stylesheet value */
+
+  /* Host card. */
+  --shadow-host-card: 0 6px 16px rgba(0, 0, 0, 0.12); /* reference stylesheet value */
+  --radius-host-card: 20px; /* reference stylesheet value */
+  --color-host-message: #f2f2f2; /* reference stylesheet value */
+  --color-host-message-hover: #ebebeb; /* reference stylesheet value */
+
+  /* Letter avatars for co-hosts without a photo (sampled from the capture). */
+  --color-cohost-rose: #fde7ef;
+  --color-cohost-rose-ink: #d4356e;
+  --color-cohost-sky: #e7f0fd;
+  --color-cohost-sky-ink: #3a6ecc;
+
+  /* Type scale for these sections. Sizes are stylesheet values; leadings follow
+     the page default unless the reference states another. */
+  --text-place-title: 22px;
+  --text-place-title--line-height: 26px; /* reference stylesheet value */
+  --text-place-label: 16px;
+  --text-place-label--line-height: var(--place-leading);
+  --text-place-note: 14px;
+  --text-place-note--line-height: var(--place-leading);
+  --text-place-subtitle: 18px;
+  --text-place-subtitle--line-height: var(--place-leading);
+  --text-place-blurb: 15px;
+  --text-place-blurb--line-height: var(--place-blurb-leading);
+  --text-host-name: 26px;
+  --text-host-name--line-height: 1.43; /* reference: 37.18px at 26px */
+  --text-host-role: 13px;
+  --text-host-role--line-height: var(--place-leading);
+  --text-host-label: 12px; /* stat captions (Reviews, Rating, Years hosting) */
+  --text-host-label--line-height: var(--place-leading);
+  --text-host-stat: 20px;
+  --text-host-stat--line-height: var(--place-leading);
+  --text-host-fact: 15px;
+  --text-host-fact--line-height: var(--place-leading);
+  --text-host-cohost: 14px;
+  --text-host-cohost--line-height: var(--place-leading);
+  --text-host-initial: 13px;
+  --text-host-initial--line-height: 1.43; /* reference: 18.59px at 13px */
+  --text-host-detail: 15px;
+  --text-host-detail--line-height: var(--host-detail-leading);
+  --text-host-notice: 12px;
+  --text-host-notice--line-height: var(--place-leading);
+}
+
+/* The map drawing eases between zoom levels. */
+
+/* "Message host": fill fades in on hover, presses to 98%. */
+@utility transition-host-button {
+  transition:
+    background var(--dur-host-btn-background) var(--ease-standard),
+    transform var(--dur-host-btn-transform) var(--ease-standard);
+}

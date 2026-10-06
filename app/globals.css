@@ -1,0 +1,217 @@
+@import "tailwindcss";
+@import "../styles/tokens/amenities.css";
+@import "../styles/tokens/calendar.css";
+@import "../styles/tokens/reviews.css";
+@import "../styles/tokens/location-host.css";
+@import "../styles/tokens/know-nearby.css";
+@import "../styles/tokens/sticky-nav.css";
+@import "../styles/tokens/top.css";
+
+/*
+ * Design tokens for the Airbnb listing clone (light-only).
+ * Source of truth for documentation: design/tokens.md
+ * Values are from the user's own devtools session unless tokens.md marks
+ * them "measured" (screenshot) or "unverified".
+ */
+
+:root {
+  --background: #ffffff;
+  --foreground: #222222;
+
+  /* ---- Layout (MEASURED from screenshot; 1192 css px viewport, 3441px capture) ---- */
+  /* Page frame (reference stylesheet values, read at several viewport widths): a centred
+     container at most 1280px wide including 80px side padding, so the content is
+     min(1120px, viewport - 160px). Desktop layout only. */
+  --layout-page-gutter: 80px;
+  --layout-page-max: 1280px;
+  /* Content grid: left column takes the rest, right column is 372px, 96px between. */
+  --layout-content-card-gap: 96px;
+  --layout-booking-card-width: 372px;
+  /* Photo grid: a fixed 1120:494 aspect ratio and columns in the exact proportion 35:17:17
+     (515.859 : 250.562 : 250.578 at 1033px wide, 560 : 272 : 272 at 1120px). */
+  --layout-grid-aspect: 1120 / 494;
+  --layout-grid-cols: 35fr 17fr 17fr;
+
+  /* ---- Header (MEASURED from screenshot, not devtools) ---- */
+  --layout-header-height: 88px;
+  --layout-header-search-height: 48px;
+  --layout-header-circle-size: 40px;
+  --layout-header-search-btn-size: 32px;
+
+  /* ---- Layout (devtools) ---- */
+  --layout-grid-gap: 8px;
+  --layout-grid-row-height: 223.85px; /* MEASURED (capture): grid is 455.7px tall = 2 rows + 8px gap */
+  --layout-tour-thumb-cols: 8;
+  --layout-tour-thumb-size: 111px; /* ~ */
+  --layout-tour-thumb-gap: 12px;
+  --layout-tour-thumbs-margin-bottom: 40px;
+  --layout-tour-width: 976px; /* ~ overall row */
+  --layout-tour-text-width: 500px; /* ~ */
+  --layout-tour-text-gap: 18px; /* DERIVED: 976 - 500 - 458 */
+  --layout-tour-panel-top: 96px; /* UNVERIFIED guess: sticky offset of the text panel */
+  --layout-tour-photo-width: 458px; /* ~ */
+  --layout-tour-photo-gap: 12px;
+  --layout-avatar-size: 46px; /* ~ */
+  --layout-arrow-size: 40px;
+
+  /* ---- Gradients ---- */
+  --gradient-reserve-hover: linear-gradient(
+    to right,
+    #d81b5f 0%,
+    #c31a5b 50%,
+    #bd0463 100%
+  );
+  --gradient-reserve: linear-gradient(
+    to right,
+    #e61e4d 0%,
+    #e31c5f 50%,
+    #d70466 100%
+  );
+
+  /* ---- Motion: durations (plain custom properties; v4 has no duration namespace) ---- */
+  /* "Show all photos" button */
+  --dur-showall-transform: 0.1s;
+  --dur-showall-background: 0.15s;
+  /* Reserve button */
+  --dur-reserve-filter: 0.15s;
+  --dur-reserve-transform: 0.05s;
+  /* Photo Tour thumbnails */
+  --dur-thumb-transform: 0.25s;
+  --dur-thumb-filter: 0.2s;
+  /* Hover end-values looked up in the reference stylesheet (values only) */
+  --thumb-hover-scale: 1.04;
+  --thumb-hover-brightness: 0.94;
+  /* Lightbox overlay (~) and arrows */
+  --dur-lightbox-fade: 0.25s; /* ~ */
+  --dur-arrow-background: 0.16s;
+  --dur-arrow-transform: 0.08s;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+/* `static` so every token is emitted as a CSS variable even if unused by a utility. */
+@theme static {
+  /* Transitions without an explicit curve use `ease`, as in the reference (Tailwind defaults to a different curve). */
+  --default-transition-timing-function: ease;
+
+  /* ---- Colors ---- */
+  --color-white: #ffffff;
+  --color-ink: #222222; /* headings, body, price, button text/borders */
+  --color-ink-muted: #717171; /* secondary / grey text */
+  --color-grey-100: #f7f7f7; /* hover fill; notice + strip backgrounds */
+  --color-grey-200: #f2f2f2; /* hover fill (buttons) */
+  --color-grey-300: #ebebeb; /* hover fill (circle buttons, message host) */
+  --color-line: #ebebeb; /* dividers, header bottom border */
+  --color-brand: #ff385c; /* MEASURED (sampled): logo, header search button */
+  --color-surface-muted: #f2f2f2; /* MEASURED (sampled): header circle buttons */
+  --color-line-card: rgba(0, 0, 0, 0.08); /* booking card border */
+  --color-brand-reserve-start: #e61e4d;
+  --color-brand-reserve-mid: #e31c5f;
+  --color-brand-reserve-end: #d70466;
+
+  /* ---- Typography ---- */
+  --font-sans:
+    var(--font-airbnb), "Airbnb Cereal VF", "Airbnb Cereal", Circular,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    sans-serif;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 16px;
+  --text-body: 14px;
+  --text-body-lg: 16px;
+  --text-title-sm: 22px;
+  --text-title: 26px;
+
+  /* ---- Radii ---- */
+  --radius-thumb: 8px;
+  --radius-button: 8px;
+  --radius-card: 12px;
+  --radius-grid: 12px;
+  --radius-pill: 999px;
+
+  /* ---- Shadows ---- */
+  --shadow-show-all: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  --shadow-booking-card: 0 6px 16px 0 rgba(0, 0, 0, 0.12);
+
+  /* ---- Easings ---- */
+  --ease-standard: ease;
+  --ease-thumb: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Tailwind v4 resets buttons to the default arrow; the reference shows the pointer hand on every control. */
+@layer base {
+  button,
+  [role="button"],
+  summary {
+    cursor: pointer;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  /* The reference's page line-height (1.43 x 14px = 20.02px). Anything without its own inherits it. */
+  line-height: 1.43;
+}
+
+/* Multi-property transitions built from the motion tokens in :root. */
+@utility transition-showall {
+  transition:
+    transform var(--dur-showall-transform) var(--ease-standard),
+    background var(--dur-showall-background) var(--ease-standard);
+}
+
+@utility transition-thumb {
+  transition:
+    transform var(--dur-thumb-transform) var(--ease-thumb),
+    filter var(--dur-thumb-filter) var(--ease-standard);
+}
+
+/* Press feedback shared by buttons: fill fades, then a quick scale on press. */
+@utility transition-press {
+  transition:
+    background var(--dur-showall-background) var(--ease-standard),
+    transform var(--dur-reserve-transform) var(--ease-standard);
+}
+
+/* Keyboard focus ring (value from the reference: 2px #222, 2px offset). */
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+/* Round icon buttons: fill .16s, press scale .08s (values from the reference). */
+@utility transition-icon {
+  transition:
+    background var(--dur-arrow-background) var(--ease-standard),
+    transform var(--dur-arrow-transform) var(--ease-standard);
+}
+
+/* The lightbox photo fades in each time it changes. */
+@keyframes lb-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

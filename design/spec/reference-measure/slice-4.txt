@@ -1,0 +1,90 @@
+t:May 2026#4|705.6|3809.9|57.4|17|1
+s:#50|80|3813.6|10|10|0
+s:#51|91|3813.6|10|10|0
+s:#52|102|3813.6|10|10|0
+s:#53|113|3813.6|10|10|0
+s:#54|124|3813.6|10|10|0
+s:#55|636.5|3813.6|10|10|0
+s:#56|647.5|3813.6|10|10|0
+s:#57|658.5|3813.6|10|10|0
+s:#58|669.5|3813.6|10|10|0
+s:#59|680.5|3813.6|10|10|0
+t:Great great experience living out there , can't expect more #1|80|3834.5|453.9|40.5|2
+t:Great place. Exactly as described in the listing.#1|636.5|3834.5|319.3|19.5|1
+b:Show all 19 reviews#1|80|3915.9|189.8|48.6|0
+t:Show all 19 reviews#1|103.9|3929.8|141.9|20.8|1
+c:section:Where you’ll beCandolim, Goa, #1|80|4012.5|1033.1|851.3|0
+t:Where you’ll be#1|80|4059.9|159.3|28.6|1
+t:Candolim, Goa, India#1|80|4112.4|151.8|20.8|1
+b:Search#2|92|4170.3|40|40|0
+b:Zoom in#1|1061.1|4170.3|40|40|0
+s:Search#1|104|4182.3|16|16|0
+s:Zoom in#1|1073.1|4182.3|16|16|0
+b:Zoom out#1|1061.1|4218.3|40|40|0
+s:Zoom out#1|1073.1|4230.3|16|16|0
+s:#60|568.5|4370.3|56|56|0
+t:Exact location will be provided after booking.#1|80|4657|290.8|18.2|1
+t:Neighbourhood highlights#1|80|4717.3|220.6|23.6|1
+t:Located in the heart of Candolim, Amor de Goa offers a peace#1|80|4755.3|894.5|19.5|1
+t:Show more#4|80|4794.6|84.2|20.8|1
+b:Show more#4|80|4794.6|104.2|20.8|0
+s:Show more#2|170.2|4798|14|14|0
+c:section:Meet your hostMirashya HomesHo#1|80|4863.9|1033.1|561.9|0
+t:Meet your host#1|80|4911.2|155.6|28.6|1
+t:Co-Hosts#1|468|4963.7|80|23.6|1
+i:img#27|156|4994.8|88|88|0
+i:img#28|468|5004.5|34|34|0
+i:img#29|685.7|5004.5|34|34|0
+i:img#30|903.4|5004.5|34|34|0
+t:1,463#1|316|5004.7|48.5|26.1|1
+t:Sharath#1|512|5012.1|49.7|18.2|1
+t:Aman Dev Pahwa#1|729.7|5012.1|112|18.2|1
+t:Maria Karen Priyanka#1|947.4|5012.1|133.5|18.2|1
+t:Reviews#3|316|5033|45.1|15.4|1
+s:#61|217.9|5052.7|24.2|24.2|0
+i:img#31|468|5054.5|34|34|0
+i:img#32|685.7|5054.5|34|34|0
+i:img#33|903.4|5054.5|34|34|0
+t:Simran#1|512|5062.1|44.3|18.2|1
+t:Pallavi#1|729.7|5062.1|39.6|18.2|1
+t:Sanyukta#1|947.4|5062.1|59.4|18.2|1
+t:4.68★#1|316|5071.4|57.1|26.1|1
+t:Mirashya Homes#1|146.3|5096.4|107.5|70.8|2
+t:Rating#1|316|5099.7|35.5|15.4|1
+t:Shruti#1|512|5112.1|38|18.2|1
+t:Amisha#1|729.7|5112.1|48|18.2|1
+t:S#5|481.3|5112.9|7.3|17|1
+t:A#2|697.9|5112.9|9.6|17|1
+t:2#8|316|5138.1|11.3|26.1|1
+t:Years hosting#1|316|5166.4|74.4|15.4|1
+t:Host details#1|468|5169.5|100.8|23.6|1
+t:Host#1|185.7|5173.8|28.6|17|1
+t:Response rate: 100%Responds within an hour#1|468|5212.5|168.8|43.5|2
+s:#62|80|5245.8|24|24|0
+t:Born in the 80s#1|118|5248|102.6|19.5|1
+b:Message host#1|468|5276.2|144.9|47.5|0
+s:#63|80|5283.8|24|24|0
+t:Where I went to school: NICMAR GOA#1|118|5286|260.5|19.5|1
+t:Message host#1|492|5290.2|96.9|19.5|1
+s:#64|468|5353.7|24|24|0
+t:To help protect your payment, always use Airbnb to send mone#1|502|5354.4|519.6|15.4|1
+c:section:Things to knowCancellation pol#1|80|5425.7|1033.1|345.8|0
+t:Things to know#1|80|5473.1|157.5|28.6|1
+s:#65|80|5524.7|24|24|0
+s:#66|435|5524.7|24|24|0
+s:#67|790.1|5524.7|24|24|0
+t:Cancellation policy#1|80|5567.6|142.9|20.8|1
+t:House rules#1|435|5567.6|87.6|20.8|1
+t:Safety & property#1|790.1|5567.6|133.9|20.8|1
+t:Free cancellation before 17 October. Cancel before check-in #1|80|5604.8|281.1|60.2|3
+t:Check-in after 2:00 pm#1|435|5604.8|147.9|18.2|1
+t:Carbon monoxide alarm not reported#1|790.1|5604.8|242.1|18.2|1
+t:Checkout before 11:00 am#1|435|5633.8|168.3|18.2|1
+t:Smoke alarm not reported#1|790.1|5633.8|170.1|18.2|1
+t:3 guests maximum#1|435|5662.8|121.5|18.2|1
+t:Exterior security cameras on property#2|790.1|5662.8|244.8|18.2|1
+t:Review this host’s full policy for details.#1|80|5675.8|249.4|18.2|1
+t:Learn more#2|435|5691.2|74.5|18.2|1
+b:Learn more#2|435|5691.2|74.5|18.2|0
+t:Learn more#3|790.1|5691.2|74.5|18.2|1
+b:Learn more#3|790.1|5691.2|74.5|18.2|0

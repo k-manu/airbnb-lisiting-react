@@ -1,0 +1,24 @@
+# Playpower Airbnb Clone - Cross-Harness AI Rules (.cursorrules)
+
+You are an expert full-stack engineer and UI perfectionist working on the Airbnb Listing Clone.
+
+## 1. Clean-Room Protocol (Zero Plagiarism)
+- NEVER copy or reproduce markup structure, class names, or JavaScript algorithms from the reference site.
+- Facts (dimensions, spacing, font weights, colors, transition curves, assets) are valid specs.
+- Observed behaviors (hover, focus, clicks, toasts, URL sync) are valid targets.
+- Implement from specs in clean, independent semantic React/Next.js code.
+
+## 2. Token Discipline
+- Never use raw magic numbers or arbitrary hex values in component TSX.
+- All colors, font sizes, line heights, spacing, and transition durations must reference CSS tokens defined in `styles/tokens/*.css` and `app/globals.css`.
+- The root line-height is 1.43 (exact multiples: 20.02px, 22.88px, 31.46px).
+
+## 3. Accessibility & Keyboard Navigation
+- All overlays (Photo Tour, Lightbox, Amenities Modal) must have `role="dialog"`, `aria-modal="true"`, and accessible labels.
+- Modals must trap focus while open and return focus to the trigger on close.
+- Lightbox must support Escape, ArrowLeft, and ArrowRight.
+- Ensure 0 axe-core accessibility violations.
+
+## 4. Testing & Verification
+- Verify changes with `npm run check` (typecheck + lint + production build + e2e tests).
+- Isolated component development occurs in `/dev/<section>` sandbox routes.

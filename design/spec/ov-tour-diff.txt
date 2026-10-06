@@ -1,0 +1,68 @@
+A  SUMMARY
+   reference rows 147, ours 147, matched 104
+   page height: reference 6183, ours 6185
+   unmatched: reference 43, ours 43
+   rows with |dy| > 0.5: 0 (max 0)
+
+B  DRIFT STEPS (our y minus reference y; a step = space we add or lose between neighbours)
+   none
+
+B2 FULL COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+B2 LEFT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+B2 RIGHT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+C  SIZE / X / LINE-COUNT DIFFERENCES (tolerance 0.5px; y ignored)
+   0 rows differ
+
+D  IN THE REFERENCE, NOT MATCHED IN OURS
+   y   436.4  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 1#1  [626.5, 458x305.3]
+   y   753.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 2#1  [626.5, 223x148.7]
+   y   753.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 3#1  [861.5, 223x148.7]
+   y   922.4  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 4#1  [626.5, 458x305.3]
+   y  1239.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 5#1  [626.5, 223x148.7]
+   y  1239.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 6#1  [861.5, 223x148.7]
+   y  1400.3  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 7#1  [626.5, 458x305.3]
+   y  1717.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 8#1  [626.5, 223x148.7]
+   y  1717.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 9#1  [861.5, 223x148.7]
+   y  1878.3  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 10#1  [626.5, 458x305.3]
+   y  2203.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 11#1  [626.5, 223x148.7]
+   y  2203.7  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 12#1  [861.5, 223x148.7]
+   y  2372.3  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 13#1  [626.5, 458x305.3]
+   y  2689.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 14#1  [626.5, 223x148.7]
+   y  2689.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 15#1  [861.5, 223x148.7]
+   y  2850.3  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 16#1  [626.5, 458x305.3]
+   y  3167.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 17#1  [626.5, 223x148.7]
+   y  3167.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 18#1  [861.5, 223x148.7]
+   y  3336.3  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 19#1  [626.5, 458x305.3]
+   y  3661.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 20#1  [626.5, 458x305.3]
+   y  3978.9  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 21#1  [626.5, 223x148.7]
+   y  3978.9  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 22#1  [861.5, 223x148.7]
+   y  4139.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 23#1  [626.5, 223x148.7]
+   y  4139.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 24#1  [861.5, 223x148.7]
+   y  4308.3  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 25#1  [626.5, 458x305.3]
+   y  4625.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 26#1  [626.5, 223x148.7]
+   y  4625.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 27#1  [861.5, 223x148.7]
+   y  4786.2  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 28#1  [626.5, 458x305.3]
+   y  5103.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 29#1  [626.5, 223x148.7]
+   y  5103.6  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 30#1  [861.5, 223x148.7]
+   y  5272.2  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 31#1  [626.5, 458x305.3]
+   y  5589.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 32#1  [626.5, 223x148.7]
+   y  5589.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 33#1  [861.5, 223x148.7]
+   y  5758.2  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 34#1  [626.5, 458x305.3]
+   y  6075.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 35#1  [626.5, 223x148.7]
+   y  6075.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 36#1  [861.5, 223x148.7]
+   y  6236.2  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 37#1  [626.5, 458x305.3]
+   y  6553.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 38#1  [626.5, 223x148.7]
+   y  6553.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 39#1  [861.5, 223x148.7]
+   y  6714.2  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 40#1  [626.5, 458x305.3]
+   y  7031.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 41#1  [626.5, 223x148.7]
+   y  7031.5  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 42#1  [861.5, 223x148.7]
+   y  7192.2  b:Romantic Jacuzzi 1BHK Candolim | Mirashya UG10 image 43#1  [626.5, 458x305.3]
+
+E  IN OURS, NOT IN THE REFERENCE (text only)
+   0 text rows

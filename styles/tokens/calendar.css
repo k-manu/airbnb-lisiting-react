@@ -1,0 +1,47 @@
+/* Design tokens for the availability calendar section.
+   Provenance: "stylesheet" = value looked up in the reference stylesheet,
+   "measured" = taken from design/reference/full-page.jpg (1192 css px wide).
+   Colours reuse the global ink / ink-muted / line / grey-200 tokens. */
+
+:root {
+  /* Section rhythm (stylesheet 32px, verified against the two dividers: 2238 -> 2668). */
+  --calendar-section-pad-y: 32px;
+  --calendar-title-line-height: 1.43; /* reference: page ratio (31.46px at 22px) */
+  --calendar-subtitle-gap: 6px; /* stylesheet */
+  --calendar-subtitle-line-height: 1.43; /* reference: page ratio (20.02px) */
+  --calendar-body-gap: 22px; /* stylesheet: subtitle -> month row */
+  --calendar-footer-gap: 18px; /* stylesheet: last week row -> footer */
+
+  /* Month panes (measured: two 252.5px panes, 36.07px day cells). */
+  --calendar-month-gap: 56px; /* stylesheet */
+  --calendar-month-title-line-height: 1.43; /* reference: page ratio (22.88px at 16px) */
+  --calendar-month-title-gap: 18px; /* stylesheet */
+  --calendar-weekday-line-height: 1.43; /* reference: page ratio (17.16px at 12px) */
+  --calendar-weekday-gap: 6px; /* reference stylesheet value */
+
+  /* Month paging buttons. */
+  --calendar-nav-size: 32px; /* stylesheet */
+  --calendar-nav-offset: -4px; /* stylesheet: pulled up so the arrow centres on the month title */
+  --calendar-nav-icon-width: 7px; /* measured: chevron glyph 6.6 x 11.8 */
+  --calendar-nav-icon-height: 12px;
+
+  /* Keyboard-shortcut trigger (measured 30.5 x 22.2, inner glyph 19.75 x 13.5). */
+  --calendar-kbd-width: 30px;
+  --calendar-kbd-height: 22px;
+  --calendar-kbd-glyph-width: 20px;
+  --calendar-kbd-glyph-height: 14px;
+  --calendar-kbd-radius: 4px; /* stylesheet */
+
+  /* Clear dates: UA default button padding (1px 6px) puts the text 6px in from the column edge. */
+  --calendar-clear-pad-x: 6px;
+  --calendar-clear-pad-y: 1px;
+
+  /* Shortcuts dialog. */
+  --calendar-dialog-width: 420px;
+}
+
+@theme static {
+  --color-calendar-blocked: #dddddd; /* stylesheet: struck-through days */
+  --color-calendar-kbd-border: #b0b0b0; /* stylesheet */
+  --color-calendar-day-ring: #222222; /* hover outline on a bookable day */
+}

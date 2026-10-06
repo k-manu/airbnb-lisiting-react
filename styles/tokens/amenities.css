@@ -1,0 +1,51 @@
+/* Design tokens for "Where you'll sleep" and "What this place offers" (+ its
+   modal). Owned by those sections only.
+   "measured" = taken from design/reference/full-page.jpg; "reference
+   computed value" = a value inspected (not copied as code) via Chrome DevTools. */
+
+:root {
+  /* ---- Shared by both sections ---- */
+  --amenities-leading: 1.43; /* reference stylesheet value: page line-height, inherited by all text here */
+  --amenities-section-pad-y: 32px; /* reference stylesheet value: space inside the top divider / above the next one */
+  --amenities-heading-leading: 26px; /* reference stylesheet value (22px heading) */
+  --amenities-heading-gap: 24px; /* reference stylesheet value: heading -> content */
+
+  /* ---- Where you'll sleep ---- */
+  --sleeping-grid-gap: 16px; /* reference stylesheet value */
+  --sleeping-photo-ratio: 3 / 2; /* reference stylesheet value */
+  --sleeping-name-size: 15px; /* reference stylesheet value */
+  --sleeping-name-gap: 14px; /* reference stylesheet value: photo -> name */
+  --sleeping-detail-gap: 2px; /* reference stylesheet value: name -> detail */
+  --sleeping-pad-bottom: 32px; /* reference stylesheet value */
+
+  /* ---- What this place offers (page list) ---- */
+  --amenity-heading-gap: 24px; /* reference stylesheet value (the old 26px compensated for rounded line-heights elsewhere) */
+  --amenity-list-gap-x: 8px; /* reference stylesheet value */
+  --amenity-list-gap-y: 16px; /* reference stylesheet value */
+  --amenity-list-gap-below: 24px; /* reference stylesheet value: list -> button */
+  --amenity-row-gap: 16px; /* reference stylesheet value: icon -> label */
+  --amenity-row-pad-y: 4px; /* reference stylesheet value */
+  --amenity-icon-size: 24px; /* reference stylesheet value */
+  --amenity-button-pad: 13px 23px; /* reference stylesheet value */
+
+  /* ---- Modal ---- */
+  --amenity-modal-width: 780px; /* reference stylesheet value */
+  --amenity-modal-margin-x: 48px; /* reference stylesheet value: min space left/right (calc(100vw - 48px)) */
+  --amenity-modal-margin-y: 96px; /* reference stylesheet value: min space top+bottom */
+  --amenity-modal-header-height: 64px; /* reference stylesheet value */
+  --amenity-modal-pad-x: 48px; /* reference stylesheet value: body side/bottom padding */
+  --amenity-modal-title-gap-top: 12px; /* reference stylesheet value */
+  --amenity-modal-group-gap: 30px; /* reference stylesheet value */
+  --amenity-modal-group-title-size: 18px; /* reference stylesheet value */
+  --amenity-modal-group-title-gap: 4px; /* reference stylesheet value */
+  --amenity-modal-row-pad-y: 16px; /* reference stylesheet value */
+  --amenity-modal-slide: 20px; /* reference stylesheet value: entry offset */
+  --dur-amenity-modal-fade: 0.2s; /* reference stylesheet value: overlay opacity */
+  --dur-amenity-modal-slide: 0.25s; /* reference stylesheet value: panel slide */
+}
+
+@theme static {
+  --color-scrim: #00000080; /* reference stylesheet value: modal backdrop */
+  --radius-modal: 12px; /* reference stylesheet value */
+  --radius-outline-button: 12px; /* reference stylesheet value: "Show all amenities" */
+}

@@ -1,0 +1,100 @@
+controls: reference 56, ours 64; identical in all states 37; different 19; only in ours 8
+most common differing fields: rest.img.color x16, hover.img.color x16, press.img.color x16, focus.img.color x16, focus.self.outline x1, rest.self.color x1, rest.after.color x1, hover.self.color x1, hover.after.color x1, press.self.color x1, press.after.color x1, focus.self.color x1
+
+Skip to content#1
+   focus.self.outline: -  ->  2px solid rgb(34, 34, 34) +2px
+Anywhere#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+icon button#2
+   rest.self.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   rest.after.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   hover.self.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   hover.after.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   press.self.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   press.after.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   focus.self.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+   focus.after.color: rgb(34, 34, 34)  ->  rgb(255, 255, 255)
+Photos#1
+   rest.after.bg: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.after.bg: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+image tile#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+image tile#2
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+image tile#3
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+image tile#4
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+image tile#5
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Comfort 6#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Accuracy 5#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Hot tub 5#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Condition 4#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Hospitality 8#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Cleanliness 4#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Amenities 2#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Decor 2#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Indoor spaces 2#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+Location 2#1
+   rest.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   hover.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   press.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+   focus.img.color: rgb(34, 34, 34)  ->  rgba(0, 0, 0, 0)
+
+ONLY IN REFERENCE: 
+ONLY IN OURS: Beautiful Studio with a view to #1 | NAQAB - 1bhk with private pool#1 | Greentique Luxury Flat with plun#1 | The Tropical Studio | 5 mins to #1 | Luxury Casa Bella 1BHK with plun#1 | Kanso by Earthen Window | Jacuzz#1 | Luxury Apt | Private Pool | 6 Mi#1 | Serendipity Cottage - Calm Stay #1

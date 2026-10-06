@@ -1,0 +1,7 @@
+painted boxes: reference 55, ours 55; matched 55; differing 0
+
+DIFFERENT PAINT (reference -> ours)
+
+IN THE REFERENCE, NO MATCH IN OURS (0)
+
+IN OURS, NO MATCH IN THE REFERENCE (0)

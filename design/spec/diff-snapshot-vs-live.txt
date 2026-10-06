@@ -1,0 +1,222 @@
+A  SUMMARY
+   reference rows 474, ours 474, matched 464
+   page height: reference 6186, ours 6183
+   unmatched: reference 10, ours 10
+   rows with |dy| > 0.5: 245 (max 3.7)
+
+B  DRIFT STEPS (our y minus reference y; a step = space we add or lose between neighbours)
+   ref y   675.3  delta   -0.7  (step   -0.7)  t:Entire serviced apartment in Candolim, India#1
+   ref y   693.5  delta   +0.1  (step   +0.8)  t:Get 10% off your next stay.#1
+   ref y   709.8  delta   -1.2  (step   -1.3)  t:3 guests · 1 bedroom · 1 bed · 1 bathroom#1
+   ref y   711.7  delta   +0.1  (step   +1.3)  t:Terms apply#1
+   ref y   813.6  delta   -0.8  (step   -0.9)  t:Reviews#2
+   ref y   872.3  delta   +0.5  (step   +1.3)  t:10/18/2026#1
+   ref y   878.2  delta   -0.1  (step   -0.6)  i:img#7
+   ref y   879.7  delta   -1.1  (step     -1)  t:Hosted by Mirashya Homes#1
+   ref y   904.2  delta   +0.3  (step   +1.4)  t:2 years hosting#1
+   ref y   914.2  delta   -0.4  (step   -0.7)  t:GUESTS#1
+   ref y   930.5  delta   +0.6  (step     +1)  t:2 guests#1
+   ref y   985.5  delta   -0.4  (step     -1)  t:Free cancellation before#1
+   ref y  1005.7  delta   +0.4  (step   +0.8)  t:The pool and alfresco dining are great for summer trips.#1
+   ref y  1277.7  delta   -0.6  (step     -1)  t:🌴 Plan Your Relaxing Holiday at Amor De Goa by Mirashya Hom#1
+   ref y  1389.3  delta      0  (step   +0.6)  t:Show more#1
+   ref y  1473.9  delta   -0.6  (step   -0.6)  t:Where you'll sleep#1
+   ref y  1746.6  delta   +0.2  (step   +0.8)  t:1 double bed#1
+   ref y  1829.4  delta   -0.6  (step   -0.8)  t:What this place offers#1
+   ref y  2164.6  delta   -0.1  (step   +0.5)  t:Show all 50 amenities#1
+   ref y  2302.3  delta   +0.7  (step   +0.8)  t:18 Oct 2026 - 23 Oct 2026#1
+   ref y  2385.2  delta   -0.3  (step     -1)  t:S#1
+   ref y  2416.5  delta   +0.7  (step     +1)  t:1#1
+   ref y  2724.8  delta      0  (step   -0.7)  t:4.95#2
+   ref y  3064.5  delta   -0.7  (step   -0.7)  t:5#3
+   ref y  3064.8  delta      0  (step   +0.7)  t:5.0#1
+   ref y  3084.6  delta   -0.7  (step   -0.7)  t:4#3
+   ref y  3219.6  delta      0  (step   +0.7)  i:img#13
+   ref y  3306.6  delta   -0.6  (step   -0.6)  t:2 months on Airbnb#1
+   ref y  3360.7  delta   +0.4  (step     +1)  t:Very helpful and responsive team. Safe and peaceful stay. lo#1
+   ref y  3520.4  delta   -1.3  (step   -1.7)  i:img#24
+   ref y  3543.5  delta   -1.9  (step   -0.6)  t:8 months on Airbnb#1
+   ref y  3597.6  delta   -0.9  (step     +1)  t:the host nitish was really great help#1
+   ref y  3757.3  delta   -2.6  (step   -1.7)  i:img#25
+   ref y  3780.4  delta   -3.3  (step   -0.7)  t:3 years on Airbnb#2
+   ref y  3834.5  delta   -2.2  (step   +1.1)  t:Great great experience living out there , can't expect more #1
+   ref y  4112.4  delta   -3.1  (step   -0.9)  t:Candolim, Goa, India#1
+   ref y    4657  delta   -1.8  (step   +1.3)  t:Exact location will be provided after booking.#1
+   ref y  4755.3  delta   -2.4  (step   -0.6)  t:Located in the heart of Candolim, Amor de Goa offers a peace#1
+   ref y    5033  delta     -3  (step   -0.6)  t:Reviews#3
+   ref y  5054.5  delta   -2.3  (step   +0.7)  i:img#31
+   ref y  5099.7  delta   -2.9  (step   -0.6)  t:Rating#1
+   ref y  5112.1  delta     -2  (step   +0.9)  t:Shruti#1
+   ref y  5112.9  delta     -3  (step     -1)  t:S#5
+   ref y  5138.1  delta   -2.2  (step   +0.8)  t:2#8
+   ref y  5166.4  delta   -2.9  (step   -0.7)  t:Years hosting#1
+   ref y  5169.5  delta   -2.3  (step   +0.6)  t:Host details#1
+   ref y  5173.8  delta   -2.9  (step   -0.6)  t:Host#1
+   ref y    5248  delta     -2  (step   +0.9)  t:Born in the 80s#1
+   ref y  5354.4  delta   -3.5  (step   -1.5)  t:To help protect your payment, always use Airbnb to send mone#1
+   ref y  5425.7  delta   -2.8  (step   +0.7)  c:section:Things to knowCancellation pol#1
+   ref y  5567.6  delta   -3.7  (step   -0.9)  t:Cancellation policy#1
+   ref y  5604.8  delta     -3  (step   +0.7)  t:Free cancellation before 17 October. Cancel before check-in #1
+   ref y  5691.2  delta   -2.4  (step   +0.6)  t:Learn more#2
+   ref y  5821.9  delta   -3.1  (step   -0.7)  t:More stays nearby#1
+   ref y  5827.1  delta   -2.3  (step   +0.8)  t:1 / 2#1
+
+B2 FULL COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   ref y    34.6  offset   +0.4  step  +0.4  t:Become a host#1  (after i:img#1)
+   ref y  3064.5  offset   -0.7  step    -1  t:5#3  (after t:Value#1)
+   ref y  3064.8  offset      0  step  +0.7  t:5.0#1  (after t:5#3)
+   ref y  3084.6  offset   -0.7  step  -0.7  t:4#3  (after t:4.8#2)
+   ref y  3219.6  offset      0  step  +0.7  i:img#13  (after t:1#3)
+   ref y  3306.6  offset   -0.6  step  -0.7  t:2 months on Airbnb#1  (after t:A#1)
+   ref y  3360.7  offset   +0.4  step  +0.9  t:Very helpful and responsive team. Safe and  (after t:2 weeks ago#1)
+   ref y  3452.1  offset      0  step  -0.4  t:Show more#2  (after t:We had a wonderful stay. The)
+   ref y  3520.4  offset   -1.3  step  -1.3  i:img#24  (after t:Show more#2)
+   ref y  3543.5  offset   -1.9  step  -0.7  t:8 months on Airbnb#1  (after t:V#1)
+   ref y  3597.6  offset   -0.9  step    +1  t:the host nitish was really great help#1  (after t:May 2026#2)
+   ref y    3689  offset   -1.3  step  -0.4  t:Show more#3  (after t:We had an amazing stay at th)
+   ref y  3757.3  offset   -2.6  step  -1.3  i:img#25  (after t:Show more#3)
+   ref y  3780.4  offset   -3.3  step  -0.8  t:3 years on Airbnb#2  (after t:Mohd#1)
+   ref y  3834.5  offset   -2.2  step    +1  t:Great great experience living out there ,   (after t:May 2026#4)
+   ref y  4059.9  offset   -2.6  step  -0.4  t:Where you’ll be#1  (after c:section:Where you’ll beCando)
+   ref y  4112.4  offset   -3.1  step  -0.5  t:Candolim, Goa, India#1  (after t:Where you’ll be#1)
+   ref y    4657  offset   -1.8  step  +1.3  t:Exact location will be provided after book  (after t:Candolim, Goa, India#1)
+   ref y  4963.7  offset   -2.3  step  +0.5  t:Co-Hosts#1  (after t:Meet your host#1)
+   ref y    5033  offset     -3  step    -1  t:Reviews#3  (after t:Maria Karen Priyanka#1)
+   ref y  5054.5  offset   -2.3  step  +0.7  i:img#31  (after t:Reviews#3)
+   ref y  5096.4  offset   -2.8  step  -0.6  t:Mirashya Homes#1  (after t:4.68★#1)
+   ref y  5112.1  offset     -2  step  +0.9  t:Shruti#1  (after t:Rating#1)
+   ref y  5112.9  offset     -3  step    -1  t:S#5  (after t:Amisha#1)
+   ref y  5138.1  offset   -2.2  step  +0.8  t:2#8  (after t:A#2)
+   ref y  5166.4  offset   -2.9  step  -0.7  t:Years hosting#1  (after t:2#8)
+   ref y  5169.5  offset   -2.3  step  +0.6  t:Host details#1  (after t:Years hosting#1)
+   ref y  5173.8  offset   -2.9  step  -0.6  t:Host#1  (after t:Host details#1)
+   ref y    5248  offset     -2  step  +0.6  t:Born in the 80s#1  (after t:Response rate: 100%Responds )
+   ref y  5354.4  offset   -3.5  step  -1.2  t:To help protect your payment, always use A  (after t:Message host#1)
+   ref y  5425.7  offset   -2.8  step  +0.7  c:section:Things to knowCancellation pol#1  (after t:To help protect your payment)
+   ref y  5473.1  offset   -3.2  step  -0.4  t:Things to know#1  (after c:section:Things to knowCancel)
+   ref y  5567.6  offset   -3.7  step  -0.5  t:Cancellation policy#1  (after t:Things to know#1)
+   ref y  5604.8  offset     -3  step  +0.7  t:Free cancellation before 17 October. Cance  (after t:Safety & property#1)
+   ref y  5691.2  offset   -2.4  step  +0.6  t:Learn more#2  (after t:Review this host’s full poli)
+   ref y  5771.5  offset   -2.7  step  -0.4  c:section:More stays nearby1 / 2Beautifu#1  (after t:Learn more#1)
+   ref y  5821.9  offset   -3.1  step  -0.4  t:More stays nearby#1  (after c:section:More stays nearby1 /)
+   ref y  5827.1  offset   -2.3  step  +0.8  t:1 / 2#1  (after t:More stays nearby#1)
+   ref y  5872.5  offset   -2.7  step  -0.4  i:img#34  (after t:1 / 2#1)
+   ref y  6071.7  offset   -2.3  step  +0.4  t:Beautiful Studio with a view to die for#1  (after i:img#41)
+
+B2 LEFT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   ref y   675.3  offset   -0.7  step  -0.5  t:Entire serviced apartment in Candolim, Ind  (after i:img#5)
+   ref y   709.8  offset   -1.2  step  -0.5  t:3 guests · 1 bedroom · 1 bed · 1 bathroom#  (after t:Entire serviced apartment in)
+   ref y   780.3  offset   +0.2  step  +1.4  t:One of the most loved homes on Airbnb, acc  (after t:3 guests · 1 bedroom · 1 bed)
+   ref y   813.6  offset   -0.8  step  -0.9  t:Reviews#2  (after t:Guestfavourite#1)
+   ref y   878.2  offset   -0.1  step  +0.7  i:img#7  (after t:Reviews#2)
+   ref y   879.7  offset   -1.1  step    -1  t:Hosted by Mirashya Homes#1  (after i:img#7)
+   ref y   904.2  offset   +0.3  step  +1.4  t:2 years hosting#1  (after t:Hosted by Mirashya Homes#1)
+   ref y  1277.7  offset   -0.6  step    -1  t:🌴 Plan Your Relaxing Holiday at Amor De G  (after t:Show original#1)
+   ref y  1389.3  offset      0  step  +0.6  t:Show more#1  (after t:🌴 Plan Your Relaxing Holida)
+   ref y  1473.9  offset   -0.6  step  -0.6  t:Where you'll sleep#1  (after t:Show more#1)
+   ref y  1525.5  offset   -0.2  step  +0.4  i:img#8  (after t:Where you'll sleep#1)
+   ref y  1746.6  offset   +0.2  step  +0.4  t:1 double bed#1  (after t:Living room#1)
+   ref y  1829.4  offset   -0.6  step  -0.8  t:What this place offers#1  (after t:1 sofa#1)
+   ref y  1886.4  offset   -1.1  step  -0.5  t:Kitchen#1  (after t:What this place offers#1)
+   ref y  2164.6  offset   -0.1  step    +1  t:Show all 50 amenities#1  (after t:Smoke alarm#1)
+   ref y  2302.3  offset   +0.7  step  +0.7  t:18 Oct 2026 - 23 Oct 2026#1  (after t:5 nights in Candolim#1)
+   ref y  2385.2  offset   -0.3  step    -1  t:S#1  (after t:18 Oct 2026 - 23 Oct 2026#1)
+   ref y  2416.5  offset   +0.7  step    +1  t:1#1  (after t:S#4)
+
+B2 RIGHT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   ref y   693.5  offset   +0.1  step  +0.4  t:Get 10% off your next stay.#1  (after t:Show all photos#1)
+   ref y   795.3  offset   -0.3  step  -0.4  t:₹28,499#2  (after t:Terms apply#1)
+   ref y   872.3  offset   +0.5  step    +1  t:10/18/2026#1  (after t:CHECKOUT#1)
+   ref y   914.2  offset   -0.4  step  -0.9  t:GUESTS#1  (after t:10/23/2026#1)
+   ref y   930.5  offset   +0.6  step    +1  t:2 guests#1  (after t:GUESTS#1)
+   ref y   985.5  offset   -0.4  step    -1  t:Free cancellation before#1  (after t:2 guests#1)
+   ref y    1043  offset   +0.2  step  +0.6  t:Reserve#2  (after t:17 October#1)
+   ref y    1094  offset   +0.7  step  +0.5  t:You won't be charged yet#1  (after t:Reserve#2)
+
+C  SIZE / X / LINE-COUNT DIFFERENCES (tolerance 0.5px; y ignored)
+   y    88.9  c:main:Romantic Jacuzzi 1BHK Candolim#1           h 6096.8 -> 6094
+   y   580.9  t:Show all photos#1                               h 15.4 -> 16
+   y  2385.2  t:S#1                                             h 15.4 -> 16
+   y  2385.2  t:M#1                                             h 15.4 -> 16
+   y  2385.2  t:T#1                                             h 15.4 -> 16
+   y  2385.2  t:W#1                                             h 15.4 -> 16
+   y  2385.2  t:T#2                                             h 15.4 -> 16
+   y  2385.2  t:F#1                                             h 15.4 -> 16
+   y  2385.2  t:S#2                                             h 15.4 -> 16
+   y  2385.2  t:S#3                                             h 15.4 -> 16
+   y  2385.2  t:M#2                                             h 15.4 -> 16
+   y  2385.2  t:T#3                                             h 15.4 -> 16
+   y  2385.2  t:W#2                                             h 15.4 -> 16
+   y  2385.2  t:T#4                                             h 15.4 -> 16
+   y  2385.2  t:F#2                                             h 15.4 -> 16
+   y  2385.2  t:S#4                                             h 15.4 -> 16
+   y  2662.5  c:section:4.95Guest favouriteThis home i#1        h 1350 -> 1347.5
+   y  2724.8  t:4.95#2                                          h 130.2 -> 131
+   y  3064.5  t:5#3                                             h 15.4 -> 16
+   y  3064.8  t:5.0#1                                           h 23.6 -> 23
+   y  3064.8  t:5.0#2                                           h 23.6 -> 23
+   y  3064.8  t:5.0#3                                           h 23.6 -> 23
+   y  3064.8  t:5.0#4                                           h 23.6 -> 23
+   y  3064.8  t:4.8#1                                           h 23.6 -> 23
+   y  3064.8  t:4.8#2                                           h 23.6 -> 23
+   y  3084.6  t:4#3                                             h 15.4 -> 16
+   y  3104.8  t:3#3                                             h 15.4 -> 16
+   y  3124.9  t:2#3                                             h 15.4 -> 16
+   y  3145.1  t:1#3                                             h 15.4 -> 16
+   y  3205.6  b:Hospitality 8#1                                 x 674.3 -> 674.9
+   y  3205.6  b:Cleanliness 4#1                                 x 836.1 -> 836.8
+   y  3205.6  b:Amenities 2#1                                   x 1000.2 -> 1001.1
+   y  3205.6  b:Decor 2#1                                       x 1156.9 -> 1158
+   y  3205.6  b:Indoor spaces 2#1                               x 1287.3 -> 1288.5
+   y  3205.6  b:Location 2#1                                    x 1469.5 -> 1470.9
+   y  3219.6  i:img#17                                          x 689.2 -> 689.9
+   y  3219.6  i:img#18                                          x 851 -> 851.8
+   y  3219.6  i:img#19                                          x 1015.1 -> 1016.1
+   y  3219.6  i:img#20                                          x 1171.9 -> 1173
+   y  3219.6  i:img#21                                          x 1302.3 -> 1303.5
+   y  3219.6  i:img#22                                          x 1484.5 -> 1485.9
+   y  3220.4  t:Hospitality#1                                   x 717.2 -> 717.9
+   y  3220.4  t:8#3                                             x 796.9 -> 797.6
+   y  3220.4  t:Cleanliness#2                                   x 879 -> 879.8
+   y  3220.4  t:4#5                                             x 961.1 -> 961.9
+   y  3220.4  t:Amenities#2                                     x 1043.1 -> 1044.1
+   y  3220.4  t:2#4                                             x 1118.1 -> 1119.1
+   y  3220.4  t:Decor#1                                         x 1199.9 -> 1201
+   y  3220.4  t:2#5                                             x 1248.5 -> 1249.6
+   y  3220.4  t:Indoor spaces#1                                 x 1330.3 -> 1331.5
+   y  3220.4  t:2#6                                             x 1430.7 -> 1432
+   y  3220.4  t:Location#3                                      x 1512.5 -> 1513.9
+   y  3220.4  t:2#7                                             x 1577.8 -> 1579.2
+   y  4717.3  t:Neighbourhood highlights#1                      h 23.6 -> 23
+   y  4963.7  t:Co-Hosts#1                                      h 23.6 -> 23
+   y    5033  t:Reviews#3                                       h 15.4 -> 16
+   y  5099.7  t:Rating#1                                        h 15.4 -> 16
+   y  5166.4  t:Years hosting#1                                 h 15.4 -> 16
+   y  5169.5  t:Host details#1                                  h 23.6 -> 23
+   y  5354.4  t:To help protect your payment, always use Airbn  h 15.4 -> 16
+   60 rows differ
+
+D  IN THE REFERENCE, NOT MATCHED IN OURS
+   y  2344.7  t:October2026#1  [154.9, 104.8x20.8]
+   y  2344.7  t:November2026#1  [457.9, 119.9x20.8]
+   y  6115.7  t:₹23,6004.91#1  [80, 93.7x17]
+   y  6115.7  t:₹42,2184.95#1  [290.6, 92.3x17]
+   y  6115.7  t:₹44,5064.94#1  [501.2, 94.9x17]
+   y  6115.7  t:₹22,8244.96#1  [711.8, 95x17]
+   y  6115.7  t:₹39,9424.95#1  [922.4, 94.5x17]
+   y  6115.7  t:₹45,6485.0#1  [1133.1, 86.9x17]
+   y  6115.7  t:₹48,7864.93#1  [1343.7, 93.8x17]
+   y  6115.7  t:₹22,8244.92#1  [1554.3, 94.7x17]
+
+E  IN OURS, NOT IN THE REFERENCE (text only)
+   y    2344  t:October 2026#1
+   y    2344  t:November 2026#1
+   y  6112.4  t:₹23,600 4.91#1
+   y  6112.4  t:₹42,218 4.95#1
+   y  6112.4  t:₹44,506 4.94#1
+   y  6112.4  t:₹22,824 4.96#1
+   y  6112.4  t:₹39,942 4.95#1
+   y  6112.4  t:₹45,648 5.0#1
+   y  6112.4  t:₹48,786 4.93#1
+   y  6112.4  t:₹22,824 4.92#1
+   10 text rows

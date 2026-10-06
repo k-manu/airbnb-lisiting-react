@@ -1,0 +1,8 @@
+painted boxes: reference 4, ours 4; matched 4; differing 1
+
+DIFFERENT PAINT (reference -> ours)
+y     430 x    1133 40x40 <button>  border: T1 rgb(204, 204, 204), R1 rgb(204, 204, 204), B1 rgb(204, 204, 204), L1 rgb(204, 204, 204) -> T1 rgb(34, 34, 34), R1 rgb(34, 34, 34), B1 rgb(34, 34, 34), L1 rgb(34, 34, 34) | opacity: 0.28 -> 1
+
+IN THE REFERENCE, NO MATCH IN OURS (0)
+
+IN OURS, NO MATCH IN THE REFERENCE (0)

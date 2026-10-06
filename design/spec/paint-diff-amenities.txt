@@ -1,0 +1,8 @@
+painted boxes: reference 46, ours 47; matched 46; differing 0
+
+DIFFERENT PAINT (reference -> ours)
+
+IN THE REFERENCE, NO MATCH IN OURS (0)
+
+IN OURS, NO MATCH IN THE REFERENCE (1)
+y       0 x       0 1193x900 <dialog> bg rgba(0, 0, 0, 0.5) border - radius 0 shadow -

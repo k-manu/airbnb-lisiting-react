@@ -1,0 +1,48 @@
+animated elements: reference 130, ours 130; identical 25; different 1; only in reference 104; only in ours 104
+
+DIFFERENT
+div:fixed[opacity+transform]#1
+     ref : transition transform 0.25s ease; opacity 0.25s ease
+     ours: transition opacity 0.2s ease; transform 0.2s ease
+
+ONLY IN THE REFERENCE (grouped)
+- | anim - | pseudo ::after: background 0.2s ease 
+     x48: button:Romantic Jacuzzi 1BHK Candolim, overlay:button:Romantic Jacuzzi 1BHK Candolim
+filter 0.2s ease | anim - | pseudo - 
+     x5: img:static[filter]
+opacity 0.3s cubic-bezier(0.2, 0, 0, 1); transform 0.3s cubic-bezier(0.2, 0, 0, 1); visibility 0s linear delay 0.3s | anim - | pseudo - 
+     x1: overlay:div:Photo tour
+transform 0.4s cubic-bezier(0.2, 0, 0, 1) | anim - | pseudo - 
+     x43: overlay:img:Living room 1, overlay:img:Living room 2, overlay:img:Full kitchen, overlay:img:Bedroom, overlay:img:Full bathroom, overlay:img:Gym, ...
+opacity 0.25s ease; visibility 0s linear delay 0.25s | anim - | pseudo - 
+     x1: overlay:div:Photo viewer
+background 0.16s ease; transform 0.08s ease | anim - | pseudo - 
+     x3: overlay:button:Previous, overlay:button:Next, overlay:button:Close
+opacity 0.2s ease; visibility 0s linear delay 0.2s | anim - | pseudo - 
+     x1: div:fixed[opacity+visibility]
+transform 0.25s cubic-bezier(0.2, 0, 0, 1) | anim - | pseudo - 
+     x1: overlay:div:What this place offers
+opacity 0.2s ease; transform 0.2s ease | anim - | pseudo - 
+     x1: div:fixed[opacity+transform]
+
+ONLY IN OURS (grouped)
+translate 0.25s ease; opacity 0.25s ease; visibility 0.25s ease | anim - | pseudo - 
+     x1: div:fixed[opacity+translate+visibility]
+- | anim - | pseudo ::after: background 0.2s ease 
+     x48: button:relative[], overlay:button:Open photo 1 of 43: Living roo, overlay:button:Open photo 2 of 43: Living roo, overlay:button:Open photo 3 of 43: Living roo, overlay:button:Open photo 4 of 43: Living roo, overlay:button:Open photo 5 of 43: Living roo, ...
+filter 0.2s ease | anim - | pseudo - 
+     x5: img:Living room 2, photo 4 of 7, img:Living room 2, photo 1 of 7, img:Living room 2, photo 2 of 7, img:Bedroom, photo 1 of 6, img:Exterior, photo 5 of 6
+opacity 0.3s cubic-bezier(0.2, 0, 0, 1); transform 0.3s cubic-bezier(0.2, 0, 0, 1) | anim - | pseudo - 
+     x1: overlay:dialog:Photo tour
+transform 0.4s cubic-bezier(0.2, 0, 0, 1); translate 0.4s cubic-bezier(0.2, 0, 0, 1); scale 0.4s cubic-bezier(0.2, 0, 0, 1); rotate 0.4s cubic-bezier(0.2, 0, 0, 1) | anim - | pseudo - 
+     x43: overlay:img:absolute[rotate+scale+transform+translate]
+opacity 0.25s ease | anim - | pseudo - 
+     x1: overlay:dialog:Photo viewer
+background 0.16s ease; transform 0.08s ease | anim - | pseudo - 
+     x2: overlay:button:Previous photo, overlay:button:Next photo
+- | anim lb-fade 0.3s ease x1 | pseudo - 
+     x1: overlay:img:Living room 1, photo 1 of 3
+opacity 0.2s ease | anim - | pseudo - 
+     x1: overlay:dialog:What this place offers
+transform 0.25s cubic-bezier(0.2, 0, 0, 1); translate 0.25s cubic-bezier(0.2, 0, 0, 1); scale 0.25s cubic-bezier(0.2, 0, 0, 1); rotate 0.25s cubic-bezier(0.2, 0, 0, 1) | anim - | pseudo - 
+     x1: overlay:div:static[rotate+scale+transform+translate]

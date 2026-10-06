@@ -1,0 +1,80 @@
+/* Design tokens for the reviews section. Owned by that section only.
+   "measured" = taken from design/reference/full-page.jpg; "reference computed
+   value" = a value inspected (not copied as code) via Chrome DevTools. */
+
+:root {
+  /* ---- Layout ---- */
+  --reviews-leading: 1.43; /* reference stylesheet value: the page's default line-height */
+  --reviews-pad-y: 48px; /* reference stylesheet value: section padding above/below content */
+  --reviews-headline-pad-top: 8px; /* reference stylesheet value */
+  --reviews-headline-pad-bottom: 40px; /* reference stylesheet value */
+  --reviews-laurel-height: 110px; /* reference stylesheet value; width follows the 240:365 bitmap */
+  --reviews-score-gap: 8px; /* reference stylesheet value */
+  --reviews-blurb-max-width: 420px; /* reference stylesheet value */
+  --reviews-breakdown-cols: 1.4fr repeat(6, 1fr); /* reference stylesheet value: overall bars + 6 categories */
+  --reviews-breakdown-pad-top: 8px;
+  --reviews-breakdown-pad-bottom: 40px;
+  --reviews-cell-pad-x: 24px; /* reference stylesheet value */
+  --reviews-category-icon-size: 32px; /* reference stylesheet value */
+  --reviews-bar-height: 4px; /* reference stylesheet value */
+  --reviews-bar-label-width: 8px; /* reference stylesheet value */
+  --reviews-bar-gap-x: 10px;
+  --reviews-bar-gap-y: 3px;
+  --reviews-chip-icon-size: 20px; /* reference stylesheet value */
+  --reviews-chip-gap: 12px;
+  --reviews-chip-pad: 13px 18px 13px 14px; /* reference stylesheet value (y x-right y x-left) */
+  --reviews-chips-pad-top: 4px;
+  --reviews-chips-pad-bottom: 30px;
+  --reviews-grid-gap-y: 48px; /* reference stylesheet value */
+  --reviews-grid-gap-x: 80px; /* reference stylesheet value */
+  --reviews-grid-pad-bottom: 40px;
+  --reviews-avatar-size: 42px; /* reference stylesheet value */
+  --reviews-star-size: 10px; /* reference stylesheet value */
+  --reviews-star-gap: 1px;
+  --reviews-text-lines: 4; /* measured: clamped reviews show 4 lines and end in an ellipsis */
+  --reviews-button-pad: 13px 23px; /* reference stylesheet value */
+
+  /* ---- Motion (reference stylesheet values) ---- */
+  --dur-reviews-btn-background: 0.15s;
+  --dur-reviews-btn-transform: 0.05s;
+  --reviews-btn-press-scale: 0.98;
+}
+
+@theme static {
+  /* Vertical rules and chip borders are slightly darker than --color-line. */
+  --color-reviews-rule: #dddddd; /* reference stylesheet value */
+  --color-reviews-bar-track: #ebebeb; /* reference stylesheet value */
+
+  /* Letter avatars for reviewers without a photo (sampled from the screenshot). */
+  --color-avatar-warm: #f7ede2;
+  --color-avatar-warm-ink: #b9832d;
+  --color-avatar-lavender: #efeaf7;
+  --color-avatar-lavender-ink: #8b6fc4;
+
+  /* Sizes below are specific to the reviews; line-heights follow the
+     page default (--reviews-leading) unless the reference states another. */
+  --text-review-score: 100px;
+  --text-review-score--line-height: 1.43; /* reference: page ratio */
+  --tracking-review-score: -0.03em; /* reference stylesheet value */
+  --text-review-blurb: 15px;
+  --text-review-blurb--line-height: 1.35;
+  --text-review-body: 15px;
+  --text-review-body--line-height: 1.4;
+  --text-review-name: 15px;
+  --text-review-name--line-height: var(--reviews-leading);
+  --text-review-meta: 13px;
+  --text-review-meta--line-height: var(--reviews-leading);
+  --text-review-stat: 18px;
+  --text-review-stat--line-height: var(--reviews-leading);
+  --text-review-initial: 17px;
+  --text-review-initial--line-height: 1.43; /* reference: 24.31px at 17px */
+  --text-review-tiny: 12px;
+  --text-review-tiny--line-height: 1.43; /* reference: page ratio (17.16px at 12px) */
+}
+
+/* "Show all reviews" button: fill fades in on hover, presses to 98%. */
+@utility transition-reviews-button {
+  transition:
+    background var(--dur-reviews-btn-background) var(--ease-standard),
+    transform var(--dur-reviews-btn-transform) var(--ease-standard);
+}

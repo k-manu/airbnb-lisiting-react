@@ -1,0 +1,105 @@
+/* Design tokens for the top of the page (header, title row, summary, banner,
+   host row, highlights, description, booking column). Every value below was
+   read from the reference's rendered stylesheet or measured from its screenshot
+  . Owned by the top-of-page work only. */
+
+@theme static {
+  /* Bordered surfaces: header pill, offer card, guest-favourite banner, pill dividers. */
+  --color-border-strong: #dddddd;
+  /* The booking card's date/guest field group. */
+  --color-field-border: #b0b0b0;
+
+  /* Small type sizes between the shared body (14px) and caption (12px) steps. */
+  --text-label: 10px; /* uppercase field labels */
+  --text-note: 13px; /* "Reviews" label, free-cancellation strip */
+  --text-body-md: 15px; /* banner title, "for 5 nights" */
+  /* The reference's body line-height; elements without their own inherit it. */
+  --leading-body: 1.43;
+  --leading-title: 30px; /* listing h1 */
+  --leading-badge: 1.15; /* two-line "Guest favourite" */
+  --leading-compact: 1.3; /* banner and offer copy */
+  --leading-detail: 1.43; /* highlight descriptions (reference: the page ratio) */
+
+  /* Vertical rhythm values that are not on the 4px scale (measured against the
+     reference: text bands land within 0.7px). */
+  --spacing-title-top: 32px; /* reference: title row padding 32 / 18 */
+  --spacing-title-bottom: 18px;
+  --spacing-summary-line: 6px; /* reference: subtitle margin-top 6 */
+  --spacing-banner-gap: 22px;
+  --spacing-host-bottom: 26px;
+  --spacing-about-top: 26px;
+  --spacing-notice-x: 18px;
+  --spacing-notice-gap: 8px; /* reference: translation notice margin-bottom 8 */
+  --spacing-card-top: 22px; /* reference: booking card padding-top 22 (+1px border) */
+  --spacing-field-gap: 18px;
+  --spacing-report-top: 26px;
+
+  --radius-banner: 16px;
+  --radius-offer: 12px;
+  --radius-notice: 12px;
+
+  --shadow-pill: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+  --shadow-pill-hover: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+:root {
+  --banner-divider-height: 34px;
+
+  /* Header fills fade in .18s; the search pill's shadow .2s. */
+  --dur-header-fill: 0.18s;
+  --dur-header-shadow: 0.2s;
+
+  /* Booking column sticks this far below the viewport top (clears the sticky
+     section bar that slides in over the page). */
+  /* "Show all photos" sits 24px in from the grid's bottom-right corner (live measurement). */
+  --photo-grid-button-inset: 24px;
+
+  /* Press feedback scales (reference stylesheet values). */
+  --press-scale-button: 0.96;
+  --press-scale-reserve: 0.985;
+
+  --booking-sticky-top: 100px;
+  /* The booking column is the 372px grid track (x = 741 at a 1193px viewport). */
+  --booking-column-width: 372px;
+
+  /* Description: shows four lines, and the mask fades the last one out. */
+  --description-fade-start: 62%;
+}
+
+/* Reserve button: filter fades .15s, press scale .05s. */
+@utility transition-reserve {
+  transition:
+    filter var(--dur-reserve-filter) var(--ease-standard),
+    transform var(--dur-reserve-transform) var(--ease-standard);
+}
+
+/* Press feedback is written as `transform` (not Tailwind's `scale` property) so
+   the buttons' `transition: transform` also animates it, as in the reference. */
+@utility press-button {
+  &:active {
+    transform: scale(var(--press-scale-button));
+  }
+}
+
+@utility press-reserve {
+  &:active {
+    transform: scale(var(--press-scale-reserve));
+  }
+}
+
+/* Space between the end of the description ("Show more") and the next section's divider.
+   MEASURED from the full-page capture: every section below sits 30.5px lower in the reference. */
+:root {
+  --about-gap-below: 32px; /* reference: description block padding-bottom 32 */
+}
+
+/* Confirmation toast (Share / Save). Values from the reference stylesheet:
+   dark pill 32px above the bottom edge, 14px 22px padding, rising 20px while it fades in over .2s. */
+:root {
+  --toast-bottom: 32px;
+  --toast-pad-y: 14px;
+  --toast-pad-x: 22px;
+  --toast-rise: 20px;
+  --dur-toast: 0.2s;
+}
+/* touch */

@@ -1,0 +1,30 @@
+A  SUMMARY
+   reference rows 9, ours 12, matched 6
+   page height: reference 6183, ours 6185
+   unmatched: reference 3, ours 6
+   rows with |dy| > 0.5: 0 (max 0)
+
+B  DRIFT STEPS (our y minus reference y; a step = space we add or lose between neighbours)
+   none
+
+B2 FULL COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+B2 LEFT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+B2 RIGHT COLUMN STEPS (rows matched by key; step = change of offset from the row above)
+   none
+
+C  SIZE / X / LINE-COUNT DIFFERENCES (tolerance 0.5px; y ignored)
+   0 rows differ
+
+D  IN THE REFERENCE, NOT MATCHED IN OURS
+   y       0  c:header:header#1  [0, 1193x72]
+   y     430  b:Previous#1  [20, 40x40]
+   y     430  b:Next#1  [1133, 40x40]
+
+E  IN OURS, NOT IN THE REFERENCE (text only)
+   y    24.6  t:Living room 1#1
+   y      27  t:1 of 43#1
+   2 text rows
